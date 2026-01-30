@@ -19,29 +19,18 @@
       property="og:description"
       content="A portfolio showcasing the amazing work of frontend developer Bagus Ade Saputra"
     />
-    <meta
-      property="og:image"
-      content="../Assets/06d8e82f980e626142b616764dcdafbf.jpeg"
-    />
     <meta property="og:url" content="http://127.0.0.1:5500/HTML/index.html" />
     <title>Bagus Ade Saputra's Portfolio</title>
   </head>
   <body>
     <!-- Navigation -->
     <nav>
-      <img
-        id="logo"
-        src=""
-        alt="Bagus Ade Saputra"
-        width="30px"
-        height="30px"
-      />
       <h4>Bagus Ade Saputra</h4>
       <ul style="list-style: none" id="nav-links">
-        <li><a href="">Home</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Articles</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
@@ -63,8 +52,17 @@
         <div>
           <!-- Project List -->
           <ul id="project-links">
-            <li><a href="#">Single Page CV</a></li>
-            <li><a href="#">HTML Only Portfolio</a></li>
+            <li>
+              <a href="https://github.com/bagusadesaputra/Single-Page-Html"
+                >Single Page CV</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/bagusadesaputra/Basic-HTML-Website/tree/main"
+                >Basic HTML Website1</a
+              >
+            </li>
           </ul>
         </div>
       </section>
@@ -75,29 +73,53 @@
           <h3>Work Experience</h3>
         </div>
         <div>
-          <h5>Roadmap.sh</h5>
-          <p>Full Stack Developer</p>
-          <a href="https://www.roadmap.sh" target="_blank" id="profile-link"
-            >Visit my profile</a
-          >
+          <h5>Junior Front End Developer</h5>
+          <p>
+            <strong>Digital Startup Hub</strong> | Juni 2021 - Desember 2022
+          </p>
+          <ul>
+            <li>Mengelola pemeliharaan bug pada komponen UI yang sudah ada.</li>
+            <li>Mengintegrasikan API RESTful ke dalam tampilan sisi klien.</li>
+            <li>
+              Menerapkan prinsip mobile-first design untuk meningkatkan
+              pengalaman pengguna di perangkat seluler.
+            </li>
+          </ul>
         </div>
       </section>
 
-      <!-- Education -->
       <section id="education">
         <div class="subheading">
           <h3>Education</h3>
         </div>
-        <p>Graduated software Engineering and IT bootcamps at Per Scholas</p>
-        <ul>
-          <p>Courses I took</p>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>React</li>
-          <li>Tailwind</li>
-          <li>Bootstrap</li>
-        </ul>
+        <p>Frontend Development Track - Roadmap.sh Learning Path</p>
+
+        <div class="education-details">
+          <h4>Core Web Fundamentals</h4>
+          <ul>
+            <li>
+              <strong>HTML</strong>: Semantic HTML, Form Validation, and SEO
+              Basics.
+            </li>
+            <li>
+              <strong>CSS</strong>: Box Model, Flexbox, Grid, and Responsive
+              Design.
+            </li>
+            <li>
+              <strong>JavaScript</strong>: DOM Manipulation, Fetch API, and ES6+
+              Syntax.
+            </li>
+          </ul>
+        </div>
+
+        <div class="additional-skills">
+          <p>Libraries & Frameworks:</p>
+          <ul>
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>Bootstrap</li>
+          </ul>
+        </div>
       </section>
 
       <!-- Reviews -->
